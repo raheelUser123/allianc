@@ -1,0 +1,68 @@
+/* src/components/EmpowerSection.css */
+.empower-section {
+    padding: 100px 0;
+    background-color: #111;
+  }
+  
+  .single-image-wrapper img {
+    border-radius: 12px;
+    max-width: 100%; /* Ensures responsiveness */
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #00d4ff;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #bfbfbf;
+    margin-bottom: 40px;
+  }
+  
+  .buttons .btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .buttons .btn-warning {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+  }
+  
+  .buttons .btn-success {
+    background-color: #32e0ae;
+    color: #000;
+    border: none;
+  }
+  
+  .buttons .btn:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 768px) {
+    .empower-section {
+      text-align: center;
+    }
+  
+    .single-image-wrapper {
+      margin-bottom: 40px;
+    }
+  
+    .section-heading {
+      font-size: 2rem;
+    }
+  
+    .section-description {
+      font-size: 1rem;
+    }
+  
+    .buttons .btn {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,38 +1,390 @@
-.App {
-  text-align: center;
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  /* background-color: #0d0d0d; */
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #00d4ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  padding: 20px 0;
+background: transparent !important;}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: #00d4ff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .btn {
+  background-color: #00d4ff;
+  color: #000;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('./images/bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #222;
+  text-align: left;
+  padding: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-section h1 {
+  font-size: 70px;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-section p {
+  font-size: 1.2rem;
+  color: #bfbfbf;
+}
+
+.hero-section .statistics {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #00d4ff;
+}
+
+/* Services Section */
+.services-section {
+  padding: 100px 0;
+  background-color: #111;
+}
+
+.services-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.service-box {
+  padding: 30px;
+  background-color: #222;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  background-color: #00d4ff;
+  color: #000;
+}
+
+.service-box h4 {
+  font-size: 1.5rem;
+}
+
+.service-box p {
+  font-size: 1rem;
+  color: #bfbfbf;
+}
+
+/* Why Choose Us Section */
+.why-choose-us-section {
+  padding: 100px 0;
+  background-color: #0d0d0d;
+}
+
+.why-choose-us-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.why-choose-us-section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.why-choose-us-section ul li {
+  margin-bottom: 15px;
+}
+
+/* Case Study Section */
+.case-study-section {
+  padding: 100px 0;
+  background-color: #111;
+}
+
+.case-study-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.case-study-image {
+  background-color: #222;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+/* Awards Section */
+.awards-section {
+  padding: 100px 0;
+  background-color: #0d0d0d;
+}
+
+.award-box {
+  padding: 30px;
+  background-color: #222;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.award-box h4 {
+  font-size: 1.5rem;
+}
+
+.award-box p {
+  font-size: 1rem;
+  color: #bfbfbf;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 100px 0;
+  background-color: #111;
+}
+
+.testimonial-box {
+  padding: 30px;
+  background-color: #222;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.testimonial-box p {
+  font-size: 1.2rem;
+  color: #bfbfbf;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 100px 0;
+  background-color: #0d0d0d;
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-section .form-label {
+  color: #bfbfbf;
+}
+
+.contact-section .form-control {
+  background-color: #222;
+  border: none;
+  color: #fff;
+}
+
+.contact-section .form-control::placeholder {
+  color: #bfbfbf;
+}
+
+.contact-section .btn {
+  background-color: #00d4ff;
+  color: #000;
+}
+
+/* Footer Section */
+.footer {
+  padding: 50px 0;
+  background-color: #000;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.footer a {
+  color: #00d4ff;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #0d0d0d;
+}
+
+a {
+  color: #00d4ff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: #00d4ff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .btn {
+  background-color: #00d4ff;
+  color: #000;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #000; /* Set black background */
+  background-image: url('./images/bg.png'); /* Use your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.highlight-text {
+  color: #00d4ff;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #bfbfbf;
+}
+
+.btn-hero {
+  background-color: #ffd700;
+  color: #000;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+
+.statistics {
+  font-size: 1.2rem;
+  /* margin-top: 30px; */
+  color: #bfbfbf;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: block;
+}
+
+.stat-desc {
+  color: #bfbfbf;
+}
+
+.phone-mockup {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.phone-mockup img {
+  /* height: auto; */
+  width: 42%;
+  margin-top: 126px;
+  margin-right: 99px;
+}
+
+/* Services Section */
+.services-section {
+  padding: 100px 0;
+  background-color: #111;
+}
+
+.services-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.service-box {
+  padding: 30px;
+  background-color: #222;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  background-color: #00d4ff;
+  color: #000;
+}
+
+.service-box h4 {
+  font-size: 1.5rem;
+}
+
+.service-box p {
+  font-size: 1rem;
+  color: #bfbfbf;
+}
+
+/* More sections here... */
+.centerhero {
+  padding: 164px 0px 0 243px;
+  text-align: left !important;
+  margin-top: 100px !important;
+  font-size: 100px !important;
+}
+.centerhero h1{
+
+color: #FFFFFF;
+
+}
+.development{
+
+color: #32E0AE !important;
+}
+.case{
+
 }

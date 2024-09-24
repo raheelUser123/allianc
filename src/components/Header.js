@@ -1,0 +1,25 @@
+// src/components/Header.js
+import React from 'react';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+
+const Header = () => {
+  return (
+    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+      <Container>
+        <Navbar.Brand href="#home">ALLIANCE</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#case-study">Case Study</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+          <Button variant="outline-success" className="ms-2">Get a Quote</Button>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default Header;

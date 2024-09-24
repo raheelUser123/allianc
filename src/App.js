@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import EmpowerSection from './components/EmpowerSection';  // Import the EmpowerSection
+import ServicesSection from './components/ServicesSection';
+import WhyChooseUs from './components/WhyChooseUs';
+import CaseStudySection from './components/CaseStudySection';
+import AwardsSection from './components/AwardsSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import ContactSection from './components/ContactSection';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <HeroSection />
+      <EmpowerSection />  {/* Add EmpowerSection here */}
+      <ServicesSection />
+      <WhyChooseUs />
+      <CaseStudySection />
+      <AwardsSection />
+      <TestimonialsSection />
+      <ContactSection />
     </div>
   );
 }

@@ -39,7 +39,7 @@ background: transparent !important;}
 }
 
 /* Hero Section */
-.hero-section {
+/* .hero-section {
   background: url('./images/bg.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
@@ -48,7 +48,7 @@ background: transparent !important;}
   background-color: #222;
   text-align: left;
   padding: 0 20px;
-}
+} */
 
 .hero-section h1 {
   font-size: 70px;
@@ -69,7 +69,7 @@ background: transparent !important;}
 /* Services Section */
 .services-section {
   padding: 100px 0;
-  background-color: #111;
+  
 }
 
 .services-section h2 {
@@ -124,7 +124,7 @@ background: transparent !important;}
 /* Case Study Section */
 .case-study-section {
   padding: 100px 0;
-  background-color: #111;
+  
 }
 
 .case-study-section h2 {
@@ -160,7 +160,7 @@ background: transparent !important;}
 /* Testimonials Section */
 .testimonials-section {
   padding: 100px 0;
-  background-color: #111;
+  
 }
 
 .testimonial-box {
@@ -261,11 +261,7 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-  background-color: #000; /* Set black background */
-  background-image: url('./images/bg.png'); /* Use your background image */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   color: #fff;
@@ -333,7 +329,7 @@ p {
 /* Services Section */
 .services-section {
   padding: 100px 0;
-  background-color: #111;
+  
 }
 
 .services-section h2 {
@@ -379,6 +375,7 @@ color: #FFFFFF;
 
 color: #32E0AE !important;
 }
-.case{
-
+.home {
+background-image: url(./images/body.png);
+background-size: cover;
 }

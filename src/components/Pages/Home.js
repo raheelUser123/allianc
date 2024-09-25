@@ -8,6 +8,7 @@ import CaseStudySection from '../CaseStudySection';
 import AwardsSection from '../AwardsSection';
 import TestimonialsSection from '../TestimonialsSection';
 import ContactSection from '../ContactSection';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <AwardsSection />
       <TestimonialsSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 }

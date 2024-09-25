@@ -1,12 +1,23 @@
 // src/components/ContactSection.js
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import reahimage from '../images/reach-out-image.png'
 
 const ContactSection = () => {
   return (
     <section className="contact-section text-white">
       <Container>
-        <h2>Reach Out To Us</h2>
+        <Row>
+          <Col md={6}>
+            <h2>Reach Out To Us</h2>
+            <h4>Got an idea for an app? <br />
+              Fill up the details, and we will help you make the most of it.
+            </h4>
+          </Col>
+          <Col md={6}>
+          <div className=''></div>
+          </Col>
+        </Row>
         <Form>
           <Row>
             <Col md={6}>

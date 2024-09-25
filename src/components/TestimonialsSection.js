@@ -9,7 +9,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-
 const TestimonialsSection = () => {
   const settings = {
     dots: true,
@@ -33,11 +32,11 @@ const TestimonialsSection = () => {
       <Container>
         <h2>What Our Clients Say</h2>
         <Slider {...settings}>
-          <div className="testimonial-box ">
+          <div className="testimonial-box">
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec</p>
             <div className='clients-sec'>
               <div className='clients-image'>
                 <img src={testimage1} alt=''></img>
@@ -55,7 +54,25 @@ const TestimonialsSection = () => {
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec</p>
+            <div className='clients-sec'>
+              <div className='clients-image'>
+                <img src={testimage1} alt=''></img>
+                <div className='clients-name'>
+                  <h6>Brooklyn Simmons</h6>
+                  <p><span>Pendron.Inc, CEO</span></p>
+                </div>
+              </div>
+              <div className='stars'>
+                <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+              </div>
+            </div>
+          </div>
+          <div className="testimonial-box">
+            <div className='quote-image'>
+              <img src={quoteimage1} alt='quote'></img>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec</p>
             <div className='clients-sec'>
               <div className='clients-image'>
                 <img src={testimage2} alt=''></img>

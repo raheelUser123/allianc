@@ -1,7 +1,7 @@
 // src/components/AwardsSection.js
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './AwardsSection.css';  // Add custom styles
+
 
 // Imported placeholders for award images
 import award1 from '../images/award1.png';
@@ -14,9 +14,9 @@ const AwardsSection = () => {
     <section className="awards-section">
       <Container>
         <h2 className="section-subheading">Awards and Recognitions</h2>
-        <h3 className="section-heading">Celebrating Excellence</h3>
+        <h3 className="section-heading text-center">Celebrating Excellence</h3>
         <p className="section-description">
-          See the honors and recognition we've earned for our exceptional app development work, showcasing our commitment to quality and innovation.
+          See the honors and recognition we've earned for our exceptional<br /> app development work, showcasing our commitment to quality and innovation.
         </p>
         <Row>
           {/* First Award */}

@@ -1,7 +1,7 @@
 // src/components/EmpowerSection.js
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './EmpowerSection.css';  // We'll style it in the CSS file
+import { FaLongArrowAltRight } from 'react-icons/fa'; // Import long arrow icon
 
 // Placeholder for the single image
 import image from '../images/single.png';  // Replace with your image path
@@ -24,8 +24,12 @@ const EmpowerSection = () => {
               We are a passionate team of digital marketing enthusiasts dedicated to helping businesses succeed in the digital world. With years of experience and a deep understanding of the ever-evolving online landscape, we stay at the forefront of industry trends.
             </p>
             <div className="buttons">
-              <Button variant="warning" className="me-3">Get Started</Button>
-              <Button variant="success">Let's Talk</Button>
+              <Button className="me-3 btn1">
+                Get Started <FaLongArrowAltRight />
+              </Button>
+              <Button variant="success">
+                Let's Talk <FaLongArrowAltRight />
+              </Button>
             </div>
           </Col>
         </Row>

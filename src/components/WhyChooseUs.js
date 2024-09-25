@@ -1,7 +1,7 @@
 // src/components/WhyChooseUs.js
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './WhyChooseUs.css'; 
+import { FaLongArrowAltRight } from 'react-icons/fa'; // Import long arrow icon
 import choose from '../images/choose.png'
 
 const WhyChooseUs = () => {
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
                 <p>Our streamlined deployment processes ensure minimal downtime and flawless user experiences across all devices.</p>
               </li>
             </ul>
-            <Button variant="warning">Learn More</Button>
+            <Button className="btn1 button">Learn More <FaLongArrowAltRight /></Button>
           </Col>
         </Row>
       </Container>

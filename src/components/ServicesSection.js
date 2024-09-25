@@ -1,7 +1,7 @@
 // src/components/ServicesSection.js
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './ServicesSection.css';  // Add custom styles for this section
+import { Row, Col } from 'react-bootstrap';
+
 
 // Example image imports - Replace with actual image paths
 import iosIcon from '../images/ios-icon.png';
@@ -47,8 +47,8 @@ const services = [
 const ServicesSection = () => {
   return (
     <section className="services-section">
-      <Container>
-        <h2 className="section-heading">Mobile App Development Services We Offer</h2>
+     
+        <h2 className="section-heading">Mobile App Development<br /> Services We Offer</h2>
         <Row>
           {services.map((service, index) => (
             <Col key={index} md={4} className="mb-4">
@@ -63,7 +63,7 @@ const ServicesSection = () => {
             </Col>
           ))}
         </Row>
-      </Container>
+
     </section>
   );
 };

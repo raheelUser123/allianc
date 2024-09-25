@@ -17,7 +17,7 @@ const HeroSection = () => {
               </h1>
               <h1 className="development">Development</h1>
               <p>Your Trusted Partner in Mobile App Development</p>
-              <Button variant="warning" className="btn-hero mt-3">
+              <Button  className="btn1">
                 Case Study
               </Button>
             </div>

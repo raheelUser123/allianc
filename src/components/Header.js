@@ -1,12 +1,12 @@
 // src/components/Header.js
 import React from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-
+import Logo from '../images/main-logo.png'
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+    <Navbar variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">ALLIANCE</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={Logo}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

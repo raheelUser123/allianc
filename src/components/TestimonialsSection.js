@@ -67,7 +67,7 @@ const TestimonialsSection = () => {
                 <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
               </div>
             </div>
-          </div>
+          </div>  
           <div className="testimonial-box">
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>

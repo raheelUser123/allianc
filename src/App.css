@@ -150,7 +150,7 @@ a:hover {
 
 /* Testimonials Section */
 .testimonials-section {
-  padding: 100px 0;
+  padding: 100px 0 40px 0;
 
 }
 
@@ -249,6 +249,58 @@ section.testimonials-section .slick-dots li.slick-active button:before {
 
 
 /* Contact Section */
+.contact-section .form-control {
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  height: 40px; /* Height to match input style */
+  box-shadow: none;
+  background: transparent;
+  width: 70%;
+  color: white;
+}
+.form-text.mt-3 p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30.3px;
+  text-align: left;
+}
+.custom-form {
+  color: white;
+  padding: 20px;
+}
+
+.custom-form .form-label {
+  color: gray; /* Label color matching the image */
+}
+.custom-form .custom-button {
+  border: none;
+  padding: 10px 6 0px;
+}
+
+.custom-form .custom-button:hover {
+  background-color: #e6b800; /* Darker yellow on hover */
+}
+
+/* Styling the 'Or' separator */
+.custom-form .text-center p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: gray;
+}
+
+.contact-content {
+  display: flex;
+  align-items: baseline;
+  padding: 0px 0px 30px 0px;
+}
+.reach-image img {
+  width: 60%;
+}
+.reach-image {
+  margin-top: -100px;
+}
 .contact-section {
   padding: 100px 0;
 }
@@ -262,16 +314,24 @@ section.testimonials-section .slick-dots li.slick-active button:before {
 }
 .contact-section .form-label {
   color: #bfbfbf;
+  margin: 0;
 }
-
-.contact-section .form-control {
-  background-color: #222;
-  border: none;
-  color: #fff;
+section.contact-section .form-row1.row {
+  align-items: end;
 }
-
-.contact-section .form-control::placeholder {
-  color: #bfbfbf;
+section.contact-section .col-md-6 div {
+  display: inline-flex;
+  width: -webkit-fill-available;
+  align-items: end;
+  justify-content: space-between;
+}   
+section.contact-section .col-md-5 div label {
+  width: auto ;
+}
+.contact-section input:focus {
+  background: transparent;
+  outline: unset;
+  box-shadow: unset;
 }
 
 /* Footer Section */
@@ -806,3 +866,34 @@ footer.py-5 p.mb-0 {
 .social-icons a svg:hover {
   background: #000;
 }
+/* about sec START */
+.about-page{
+  background-image: url('./images/about-body.png');
+  background-size: cover;  
+}
+.about-hero-section {
+  padding: 180px 0px 110px 0px;
+}
+.about-hero-people-image{
+  background-image: url('./images/about-hero-image\ \(2\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+padding: 310px;
+}
+.about-hero-section h1 {
+  text-transform: capitalize;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+.about-history-section h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+.history-section p {
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* about sec END */

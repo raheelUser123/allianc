@@ -6,6 +6,7 @@ import TestimonialsSection from '../TestimonialsSection'
 import CaseStudySection from '../CaseStudySection'
 import Caseheropage from '../Caseheropage'
 import { Expertisesection } from '../Expertisesection'
+import Faqsection from '../Fcase'
 
 const Casestudy = () => {
     return (
@@ -17,6 +18,7 @@ const Casestudy = () => {
             <CaseStudySection />
             <CaseStudySection />
             <Expertisesection   />
+            <Faqsection />
             <TestimonialsSection />
             <ContactSection />
             <Footer />

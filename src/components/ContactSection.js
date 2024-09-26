@@ -20,7 +20,7 @@ const ContactSection = () => {
             </div>
           </Col>
           <Col md={5}>
-          <div className='reach-image'>
+          <div className='reach-image' >
                <img src={reachimage}></img>
               </div></Col>
         </Row>

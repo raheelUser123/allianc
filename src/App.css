@@ -467,21 +467,100 @@ section.contact-section .col-md-5 div label {
 /* our values ends here */
 /* case study starts here  */
 .case-study-page{
-  background-image: url('./images/about-body.png');
+  background-image: url('./images/body.png');
   background-size: cover; 
 }
 .expert-image {
   margin-bottom: 20px;
 }
 .expert-box h4 {
-  font-family: Poppins;
-  font-size: 28px;
+  font-family: 'Poppins';
+  font-size: 25px;
   font-weight: 400;
-  line-height: 54px;
+  line-height: 44px;
   color: white;
+}
+.expertise-section {
+  padding: 50px 0px;
 }
 .expertise-section .expert-row-1.row {
   padding: 50px 0px 0px 0px;
+}
+.expertise-section .col {
+  padding: 0;
+}
+.expertise-section .border-left {
+  border-left: unset !important;
+}
+.expertise-section .border-right {
+  border-right: unset !important;
+}
+.expert-row-1.row .expert-box.text-center {
+  padding: 30px 20px 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: unset;
+}
+.expert-row-2.row .expert-box.text-center {
+  padding: 30px 20px 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: unset;
+}
+.expert-row-3.row .expert-box.text-center {
+  padding: 30px 20px 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: unset;
+}
+.expert-image img {
+  height: 60px;
+}
+.faqs-section h2 {
+  text-transform: capitalize;
+}
+.faqs-section h2.section-heading.text-center.green {
+  color: #32E0AE;
+}
+.faqs-section .accordion {
+  margin-bottom: 20px;
+}
+.faqs-section button.accordion-button {
+  background: rgba(50, 50, 50, 1);
+  color: white;
+}
+.faqs-section .accordion-body{
+  background: rgba(50, 50, 50, 1);
+  color: white;
+}
+.faqs-section .accordion-body {
+  background: rgba(50, 50, 50, 1);
+  color: white;
+  border-radius: 17px;
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset;
+ padding: 20px;
+ }
+ .accord-div {
+  padding: 40px 0px 0px 0px;
+}
+.faqs-section .accordion-item {
+  border: 0px !important;
+  border-radius: 20px !important;
+}
+button.accordion-button.collapsed {
+  border-radius: 17px !important;
+}
+.faqs-section .accordion-button::after{
+display: none;
+}
+.accordion-button{
+  justify-content: space-between !important;
+}
+.faqs-section .accordion svg {
+  background: white;
+  color: black;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  padding: 15px;
 }
 /* case study ends here  */
 /* case study hero section starts */
@@ -633,6 +712,14 @@ p {
 }
 
 /* Services Section */
+.service-hero-section {
+  padding: 190px 0px 70px 0px;
+}
+.service-hero-section h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+}
 .services-section {
   padding: 100px 50px;
 
@@ -863,7 +950,163 @@ section.awards-section .section-heading {
   margin-bottom: 20px;
 }
 
+/* services starts here */
+.services-page{
+background-image: url('./images/about-body.png');
+background-size: cover; 
+}
+.revolution-sec {
+  padding: 30px 0px;
+}
+.revolution-sec h2 {
+  color:#32E0AE;
+}
+.revolution-sec p {
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.revolution-image-wrapper img {
+  width: 70%;
+}
+.revolution-image-wrapper  {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+.revolution-sec .row {
+  align-items: center !important;
+} 
+.numbers-section {
+  padding:50px 0px 0px 0px;
+}
+.numbers-section .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  padding: 0px 0px 40px 0px;
+}
+.ios-app-image-wrapper img {
+  width: 100%;
+}
+.ios-app-development {
+  padding: 80px 0px;
+}
+.ios-app-development h2 {
+  color: #32E0AE;
+}
+.ios-app-development h4 {
+  color: #32E0AE;
+}
+.ios-app-development p {
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.tech-stack .tech-p {
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.tech-stack-tabs {
+  color: white;
+  display: flex;
+  gap: 60px;
+  align-items: end;
+  justify-content: flex-start;
+}
+.tech-stack-tabs-container {
+  padding: 20px 0px;
+}
+.tech-stack-tabs-container .nav-tabs {
+  border: unset;
+}
+.tech-stack-tabs-container .nav-item a.nav-link.active {
+  background: transparent;
+  color: rgb(50, 224, 174);
+  border: unset;
+}
+.tech-stack-tabs-container .nav-item a.nav-link {
+  color:white;
+}
+.tech-stack-tabs-container .nav-tabs .nav-link{
+  border: unset !important;
+}
+.tech-stack-image {
+  padding: 50px 0px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-left: unset;
+  border-right: unset;
+}
+.numbers-box h2 {
+  font-family: 'Poppins';
+  font-size: 134px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  color: rgba(50, 224, 174, 0.2);
+  margin-bottom: 30px;
+}
+.straight-line-2 {
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  height: 65px;
+  display: table;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.numbers-box p {
+  color: white;
+}
+.tech-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+.tech-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
+.tech-label {
+  margin-top: 10px;
+  color: white; 
+}
+.what-makes-image-wrapper img {
+  width: 80%;
+}
+
+.tech-stack-image {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.what-makes-section h2.section-heading {
+  color: #32E0AE;
+}
+.what-makes-section p{
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.what-makes-section {
+  padding: 50px 0px;
+}
+.what-makes-section .row {
+  align-items: center;
+}
+
+/* services ends here */
 /* Responsive Styling */
 @media (max-width: 768px) {
   .section-heading {

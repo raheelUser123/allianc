@@ -12,7 +12,7 @@ const CaseStudySection = () => {
         <h2 className="section-heading text-center">Case Study</h2>
         <Row>
           {/* First Case Study */}
-          <Col md={6} className="mb-4">
+          <Col md={6} className="mb-4" data-aos="fade-up">
             <div className="case-study-box">
               <div className="case-study-image">
                 <img src={case2} alt="Staff Education Mobile App design" className="img-fluid" />
@@ -29,7 +29,7 @@ const CaseStudySection = () => {
           </Col>
 
           {/* Second Case Study */}
-          <Col md={6} className="mb-4">
+          <Col md={6} className="mb-4" data-aos="fade-up">
             <div className="case-study-box">
               <div className="case-study-image">
                 <img src={case1} alt="Healthcare service - Mobile app" className="img-fluid" />

@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
       <Container>
         <h2 className='section-heading'>What Our Clients Say</h2>
         <Slider {...settings}>
-          <div className="testimonial-box">
+          <div className="testimonial-box" data-aos="fade-up">
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>
             </div>
@@ -50,7 +50,7 @@ const TestimonialsSection = () => {
               </div>
             </div>
           </div>
-          <div className="testimonial-box">
+          <div className="testimonial-box" data-aos="fade-down">
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>
             </div>
@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
               </div>
             </div>
           </div>  
-          <div className="testimonial-box">
+          <div className="testimonial-box" data-aos="fade-up">
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>
             </div>

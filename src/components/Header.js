@@ -13,7 +13,7 @@ const Header = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#">Services</Nav.Link>
-            <Nav.Link href="#case-study">Case Study</Nav.Link>
+            <Nav.Link href="Casestudy">Case Study</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Button variant="outline-success" className="ms-2">Get a Quote</Button>

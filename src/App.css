@@ -465,7 +465,39 @@ section.contact-section .col-md-5 div label {
   background-clip: text;
 }
 /* our values ends here */
-
+/* case study starts here  */
+.case-study-page{
+  background-image: url('./images/about-body.png');
+  background-size: cover; 
+}
+.expert-image {
+  margin-bottom: 20px;
+}
+.expert-box h4 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 54px;
+  color: white;
+}
+.expertise-section .expert-row-1.row {
+  padding: 50px 0px 0px 0px;
+}
+/* case study ends here  */
+/* case study hero section starts */
+.case-hero-section {
+  padding: 180px 0px 70px 0px;
+}
+.case-hero-section h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+.case-study-page section.case-study-section h2 {
+  display: none;
+}
+/* case study hero section ends */
 /* Global Styles */
 body {
   font-family: 'Poppins', sans-serif;

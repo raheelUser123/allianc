@@ -295,6 +295,55 @@ section.testimonials-section .slick-dots li.slick-active button:before {
   align-items: baseline;
   padding: 0px 0px 30px 0px;
 }
+.about-history-section .row {
+  align-items: center !important; 
+}
+.history-image img {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  border-radius: 30px ;
+}
+
+.history-image img.fade-out {
+  opacity: 0;
+}
+
+.description-text {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.description-text.fade-out {
+  opacity: 0;
+}
+p.history-description {
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.years {
+  border-left: 1px solid white;
+  padding: 0px 0px 0px 10px;
+  margin-top: 80px;
+}
+.arrows svg {
+  color: white;
+  width: 10px;
+}
+.years p {
+  padding: 12px;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -3px;
+}
+
+.arrows button {
+  padding: 10px 0px;
+}
 .reach-image img {
   width: 60%;
 }
@@ -351,6 +400,71 @@ section.contact-section .col-md-5 div label {
 }
 
 /* src/App.css */
+/* vision section starts */
+.vision-section {
+  padding: 50px 0px;
+} 
+.vision-box {
+  padding: 0px 110px 0px 0px;
+}
+.vision-box h2.section-heading {
+  color: #32E0AE;
+  border-bottom: 1px solid white;
+  width: 130px;
+}
+.vision-row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.vision-counter {
+  background: linear-gradient(0deg, #121214, #121214), linear-gradient(0deg, #121214, #121214);
+  padding: 40px 50px 40px 50px;
+  border-radius: 50px;
+}
+.vision-counter h2.section-heading {
+  text-align: center;
+  margin-bottom: 0 !important;
+  color: #32E0AE;
+}
+.vision-box p {
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.straight-line {
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  height: 40px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* vision section  ends*/
+/* our values start here */
+.our-values-section h2.section-heading {
+  color: #32E0AE;
+}
+.values-number-box p {
+  border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+.respect-image-wrapper img {
+  width: 10%;
+}
+.respect-image-wrapper {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.respect-section.row {
+  padding: 50px 0px;
+}
+.respect-box p {
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* our values ends here */
 
 /* Global Styles */
 body {
@@ -875,7 +989,7 @@ footer.py-5 p.mb-0 {
   padding: 180px 0px 110px 0px;
 }
 .about-hero-people-image{
-  background-image: url('./images/about-hero-image\ \(2\).png');
+  background-image: url('./images/about-hero-image-\(2\).png');
   background-size: contain;
   background-repeat: no-repeat;
 padding: 310px;

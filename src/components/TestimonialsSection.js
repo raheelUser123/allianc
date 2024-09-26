@@ -30,7 +30,7 @@ const TestimonialsSection = () => {
   return (
     <section className="testimonials-section text-white">
       <Container>
-        <h2>What Our Clients Say</h2>
+        <h2 className='section-heading'>What Our Clients Say</h2>
         <Slider {...settings}>
           <div className="testimonial-box">
             <div className='quote-image'>

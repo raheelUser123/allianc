@@ -5,6 +5,8 @@ import TestimonialsSection from '../TestimonialsSection'
 import Header from '../Header'
 import Aboutherosection from '../Aboutherosection'
 import { Abouthistory } from '../Abouthistory'
+import Vision from '../Vision'
+import { Ourvalues } from '../Ourvalues'
 
 const About = () => {
   return (
@@ -12,6 +14,8 @@ const About = () => {
     <Header />
     <Aboutherosection/>
     <Abouthistory/>
+    <Vision/>
+    <Ourvalues />
     <TestimonialsSection />
       <ContactSection />
       <Footer />

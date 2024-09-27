@@ -10,7 +10,7 @@ const HeroSection = () => {
 
       <Container className="hero-content">
         <Row className="align-items-center">
-          <Col md={7}>
+          <Col md={8}>
             <div className="centerhero">
               <h1 data-aos="fade-up">
               Trusted App 
@@ -22,7 +22,7 @@ const HeroSection = () => {
               </Button>
             </div>
           </Col>
-          <Col md={5} className="text-center">
+          <Col md={4} className="text-center">
             <div className="phone-mockup" data-aos="fade-up">
               <img src={phone} alt="Phone Mockup" className="img-fluid" />
             </div>

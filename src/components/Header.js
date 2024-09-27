@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Navbar variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand data-aos="fade-up" href="#home"><img src={Logo}/></Navbar.Brand>
+        <Navbar.Brand data-aos="fade-up" href="#home"><img src={Logo} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" data-aos="fade-up">
           <Nav className="me-auto">
@@ -14,11 +14,17 @@ const Header = () => {
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item href="/iosdevelopmentpage">
-              iOS App Development
+                iOS App Development
               </NavDropdown.Item>
               <NavDropdown.Item href="/androiddevelopmentpage">Android App Development</NavDropdown.Item>
               <NavDropdown.Item href="/flutterdevelopmentpage">
-              Flutter App Development
+                Flutter App Development
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/reactnativepage">
+              React Native App Development
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/gameappdevelopment">
+              Game App Development
               </NavDropdown.Item>
             </NavDropdown>
 

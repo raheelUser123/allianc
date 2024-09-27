@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Links Section */}
         <Row className="">
           {/* Quick Links Column */}
-          <Col md={3}>
+          <Col md={3} data-aos="fade-right">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li><a href="/">Home</a></li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </Col>
 
           {/* Services Column */}
-          <Col md={3}>
+          <Col md={3} data-aos="fade-right">
             <h5>Services</h5>
             <ul className="list-unstyled">
               <li><a href="/ios-development">iOS Development</a></li>
@@ -44,7 +44,7 @@ const Footer = () => {
           </Col>
 
           {/* Industries Column */}
-          <Col md={3}>
+          <Col md={3} data-aos="fade-left">
             <h5>Industries</h5>
             <ul className="list-unstyled">
               <li><a href="/healthcare">Healthcare & Fitness</a></li>
@@ -59,7 +59,7 @@ const Footer = () => {
           </Col>
 
           {/* Contact Column */}
-          <Col md={3}>
+          <Col md={3} data-aos="fade-left">
             <h5>Contact</h5>
             <ul className="list-unstyled">
               <li>000-123-4567</li>

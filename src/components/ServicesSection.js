@@ -48,10 +48,10 @@ const ServicesSection = () => {
   return (
     <section className="services-section">
      
-        <h2 className="section-heading">A Full Spectrum of Our <br/> App Development Services</h2>
+        <h2 className="section-heading" data-aos="fade-up">A Full Spectrum of Our <br/> App Development Services</h2>
         <Row>
           {services.map((service, index) => (
-            <Col key={index} md={4} className="mb-4">
+            <Col key={index} md={4} className="mb-4" data-aos="fade-up">
               <div className="service-box text-center">
                 {/* Replace with actual images for icons */}
                 <div className="icon-wrapper">

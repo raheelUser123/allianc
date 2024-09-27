@@ -9,13 +9,13 @@ const WhyChooseUs = () => {
     <section className="why-choose-us-section">
       <Container>
         <Row className="align-items-center">
-          <Col md={6}>
+          <Col md={6} data-aos="fade-right">
             {/* Image Placeholder */}
             <div >
             <img src={choose} alt="Phone Mockup" className="image-placeholder" />
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={6} data-aos="fade-left">
             <h2 className="section-heading">
             Why Choose Alliance for App Development?
             </h2>

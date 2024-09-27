@@ -6,7 +6,7 @@ const Aboutherosection = () => {
     <div className='container-fluid about-hero-section'>
       <div className='about-hero-content'>
         <Row className='align-item-center' >
-            <h1 className='text-center' >
+            <h1 className='text-center' data-aos="fade-right" >
             Alliance has a story of <br/> Innovation & Creativity. 
             </h1>
             <div className='about-hero-people-image'></div>

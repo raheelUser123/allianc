@@ -6,12 +6,12 @@ export const Whatmakes = () => {
         <div className='what-makes-section'>
             <Container>
                 <Row>
-                    <Col lg='6'>
+                    <Col lg='6' data-aos="fade-right">
                         <div className='what-makes-image-wrapper'>
                             <img src={whatmakesimage}></img>
                         </div>
                     </Col>
-                    <Col lg='6'>
+                    <Col lg='6' data-aos="fade-left"> 
                         <h2 className='section-heading'>
                             Why Your Business Needs <br /> an iOS App
                         </h2>

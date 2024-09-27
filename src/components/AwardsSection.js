@@ -20,7 +20,7 @@ const AwardsSection = () => {
         </p>
         <Row>
           {/* First Award */}
-          <Col md={3} className="mb-4">
+          <Col md={3} className="mb-4" data-aos="fade-up">
             <div className="award-box">
               <img src={award1} alt="Award 1" className="award-image" />
               <h4>Top Mobile App development company</h4>
@@ -29,7 +29,7 @@ const AwardsSection = () => {
           </Col>
           
           {/* Second Award */}
-          <Col md={3} className="mb-4">
+          <Col md={3} className="mb-4" data-aos="fade-up">
             <div className="award-box">
               <img src={award2} alt="Award 2" className="award-image" />
               <h4>Top Mobile App development company</h4>
@@ -38,7 +38,7 @@ const AwardsSection = () => {
           </Col>
           
           {/* Third Award */}
-          <Col md={3} className="mb-4">
+          <Col md={3} className="mb-4" data-aos="fade-down">
             <div className="award-box">
               <img src={award3} alt="Award 3" className="award-image" />
               <h4>Top Mobile App development company</h4>
@@ -47,7 +47,7 @@ const AwardsSection = () => {
           </Col>
           
           {/* Fourth Award */}
-          <Col md={3} className="mb-4">
+          <Col md={3} className="mb-4" data-aos="fade-down">
             <div className="award-box">
               <img src={award4} alt="Award 4" className="award-image" />
               <h4>Top Mobile App development company</h4>

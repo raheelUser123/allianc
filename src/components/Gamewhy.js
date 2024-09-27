@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import whatmakesimage from '../images/what-makes-image.png'
 
-const Androidwhat = () => {
+const Gamewhy = () => {
   return (
     <div className='what-makes-section'>
     <Container>
@@ -14,10 +14,10 @@ const Androidwhat = () => {
             </Col>
             <Col lg='6' data-aos="fade-left">
                 <h2 className='section-heading'>
-                Why Your Business Needs <br /> an Android App
+                Why Your Business Needs a Game App
                 </h2>
                 <p>
-                With over two billion active Android devices globally, an Android app is essential for reaching a vast audience. If your audience predominantly uses Android devices, an Android app is a must. Consult with us to determine the best approach for your business.
+                Game apps are increasingly becoming popular form of entertainment, offering immense opportunities for both revenue and user engagement. There are more than enough reasons you can get your game app developed, such as monetization opportunities to generate revenue and if you’re opting for web3 and blockchain integration that will open up more opportunities. Still uncertain whether your business should venture into game app development, our team can guide you through the best options based on your industry and goals. 
 
                 </p>
             </Col>
@@ -27,5 +27,10 @@ const Androidwhat = () => {
   )
 }
 
-export default Androidwhat
+export default Gamewhy
+
+
+
+
+
 

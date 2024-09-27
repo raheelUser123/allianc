@@ -5,9 +5,9 @@ const Numbers = () => {
   return (
     <div className='numbers-section'>
         <Container>
-            <h2 className='section-heading text-center mb-5'>Our Proven Process for iOS App Development</h2>
+            <h2 className='section-heading text-center mb-5' data-aos="fade-up">Our Proven Process for iOS App Development</h2>
         <Row>
-                <Col>
+                <Col data-aos="fade-up">
                 <div className='numbers-box text-center'>
                     <div className='straight-line-2'></div>
                     <h2>01</h2>
@@ -17,7 +17,7 @@ const Numbers = () => {
                     </p>
                 </div>
                  </Col>
-                <Col>
+                <Col data-aos="fade-up">
                 <div className='numbers-box text-center'>
                     <div className='straight-line-2'></div>
                     <h2>02</h2>
@@ -27,7 +27,7 @@ const Numbers = () => {
                     </p>
                 </div>
                 </Col>
-                <Col>
+                <Col data-aos="fade-up">
                 <div className='numbers-box text-center'>
                     <div className='straight-line-2'></div>
                     <h2>03</h2>
@@ -37,7 +37,7 @@ const Numbers = () => {
                     </p>
                 </div>
                 </Col>
-                <Col>
+                <Col data-aos="fade-up">
                 <div className='numbers-box text-center'>
                     <div className='straight-line-2'></div>
                     <h2>04</h2>
@@ -47,7 +47,7 @@ const Numbers = () => {
                     </p>
                 </div>
                 </Col>
-                <Col>
+                <Col data-aos="fade-up">
                 <div className='numbers-box text-center'>
                     <div className='straight-line-2'></div>
                     <h2>05</h2>

@@ -7,7 +7,7 @@ const Androidrevolution = () => {
     <div className='revolution-sec'>
     <Container>
       <Row>
-      <Col lg='6'>
+      <Col lg='6' data-aos="fade-right">
         <h2 className='section-heading'>
         Reach Millions with an Android App
         </h2>
@@ -15,7 +15,7 @@ const Androidrevolution = () => {
         Alliance Mobile Apps offers a dedicated team that excels in creating feature-rich Android applications designed to engage users and drive business growth. We utilize the latest technologies and design principles to deliver custom Android applications tailored to your needs. We have a remarkable track record of serving businesses working on a small-scale and some well-established companies seeking to enhance their digital presence with the help of app development. 
         </p>
       </Col>
-      <Col lg='6'>
+      <Col lg='6' data-aos="fade-up">
        <div className='revolution-image-wrapper'>
         <img src={revolutionimage1}></img>
        </div>

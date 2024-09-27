@@ -1,6 +1,6 @@
     import React from 'react'
     import { Col, Container, Row } from 'react-bootstrap'
-    import iosappimage from '../images/ios app-image.png'
+    import iosappimage from '../images/ios-app-image.png'
 
     const Androiddef = () => {
     return (
@@ -8,12 +8,12 @@
             <div className='ios-app-development'>
         <Container>
             <Row>
-            <Col lg='6'>
+            <Col lg='6' data-aos="fade-right">
                 <div className='ios-app-image-wrapper'>
                 <img src={iosappimage}></img>
                 </div>
             </Col>
-            <Col lg='6'>
+            <Col lg='6' data-aos="fade-left">
                 <h2 className='section-heading'>
                 Why Choose Us for <br /> Android App Development
                 </h2>

@@ -74,8 +74,8 @@ export const Abouthistory = () => {
     <div className="about-history-section">
       <Container>
         <div className="history-section">
-          <h2>Our Journey from 2012 till Now</h2>
-          <p>
+          <h2 data-aos="fade-right">Our Journey from 2012 till Now</h2>
+          <p data-aos="fade-left">
             The story of Alliance begins in a small office filled with creative tech enthusiasts providing tech solutions to small businesses. Today the story is favorably transformed into a premium app development company.
             <br />
             Alliance Mobile Apps was founded with a mission to revolutionize the mobile app landscape, delivering high-quality apps tailored to meet business needs.

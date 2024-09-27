@@ -9,23 +9,23 @@ export const Ourvalues = () => {
         <div className='our-values-section'>
             <Container>
                 <div className='our-values-section'>
-                    <h2 className='section-heading'>Our Values</h2>
+                    <h2 className='section-heading' data-aos="fade-left">Our Values</h2>
                 </div>
                 <Row>
-                    <Col lg='4'>
+                    <Col lg='4' data-aos="fade-right">
                         <div className='values-number-box'>
                             <p>
                                 01
                             </p>
                         </div>
                     </Col>
-                    <Col lg='4'>
+                    <Col lg='4' data-aos="fade-right">
                         <div className='values-number-box'>
                             <p>
                                 02
                             </p>
                         </div></Col>
-                    <Col lg='4'>
+                    <Col lg='4' data-aos="fade-right">
                         <div className='values-number-box'>
                             <p>
                                 03
@@ -33,7 +33,7 @@ export const Ourvalues = () => {
                         </div></Col>
                 </Row>
                 <Row className='respect-section'>
-                    <Col lg='4'>
+                    <Col lg='4' data-aos="fade-up">
                         <div className='respect-box'>
                             <div className='respect-image-wrapper'>
                                 <img src={respectimg1}></img>
@@ -44,7 +44,7 @@ export const Ourvalues = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg='4'>
+                    <Col lg='4' data-aos="fade-up">
                         <div className='respect-box'>
                             <div className='respect-image-wrapper'>
                                 <img src={respectimg2}></img>
@@ -55,7 +55,7 @@ export const Ourvalues = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg='4'>
+                    <Col lg='4' data-aos="fade-up">
                         <div className='respect-box'>
                             <div className='respect-image-wrapper'>
                                 <img src={respectimg3}></img>

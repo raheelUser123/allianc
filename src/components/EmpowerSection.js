@@ -11,12 +11,12 @@ const EmpowerSection = () => {
     <section className="empower-section">
       <Container>
         <Row className="align-items-center">
-          <Col md={6}>
+          <Col md={6}  data-aos="fade-right">
             <div className="single-image-wrapper">
               <img src={image} alt="Empowering Your Brand" className="img-fluid" />
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={6}  data-aos="fade-left">
             <h2 className="section-heading">
             Developing Your Vision <br/> into an App
             </h2>

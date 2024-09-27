@@ -13,7 +13,7 @@ const Vision = () => {
         <div className='vision-section'>
             <Container>
                 <Row>
-                    <Col lg='6'>
+                    <Col lg='6' data-aos="fade-up">
                         <div className='vision-box'>
                             <h2 className='section-heading'>Vision</h2>
                             <p>
@@ -21,7 +21,7 @@ const Vision = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg='6'>
+                    <Col lg='6' data-aos="fade-up">
                         <div className='vision-box'>
                             <h2 className='section-heading'>Mission</h2>
                             <p>
@@ -32,7 +32,7 @@ const Vision = () => {
                 </Row>
                 <div className='vision-row-2' ref={ref}>
                     <div>
-                        <div className='vision-counter'>
+                        <div className='vision-counter' data-aos="fade-up">
                             <div className='straight-line'></div>
                             <h2 className='section-heading'>
                                 {inView && <CountUp start={0} end={14} duration={2} />}+    
@@ -41,7 +41,7 @@ const Vision = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='vision-counter'>
+                        <div className='vision-counter' data-aos="fade-up" >
                             <div className='straight-line'></div>
                             <h2 className='section-heading'>
                                 {inView && <CountUp start={0} end={1000} duration={2} />}+
@@ -50,7 +50,7 @@ const Vision = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='vision-counter'>
+                        <div className='vision-counter' data-aos="fade-up">
                             <div className='straight-line'></div>
                             <h2 className='section-heading'>
                                 {inView && <CountUp start={0} end={100} duration={2} />}%

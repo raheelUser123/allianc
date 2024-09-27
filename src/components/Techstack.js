@@ -57,12 +57,12 @@ const Techstack = () => {
         <div className="tech-stack">
             <Container>
                 <Row>
-                    <Col lg="6">
+                    <Col lg="6" data-aos="fade-right">
                         <h2 className="section-heading">
                             Our Tech Stack for Robust iOS App Development
                         </h2>
                     </Col>
-                    <Col lg="6">
+                    <Col lg="6" data-aos="fade-left">
                         <p className='tech-p'>
                             Access the novel toolkit for full-stack iOS application development. Combined with proficient iOS app development solutions.
                         </p>
@@ -70,7 +70,7 @@ const Techstack = () => {
                 </Row>
 
                 {/* Tabs Navigation */}
-                <div className="tech-stack-tabs-container">
+                <div className="tech-stack-tabs-container" >
                     <Nav variant="tabs" activeKey={activeTab} onSelect={handleTabSelect}>
                         <Nav.Item>
                             <Nav.Link eventKey="iOS">iOS</Nav.Link>
@@ -91,7 +91,7 @@ const Techstack = () => {
                 <div className={`tech-stack-image ${fade ? 'fade-out' : 'fade-in'}`}>
                     <Row>
                         {getImagesForTab().map((item, index) => (
-                            <Col key={index} lg="2" md="4" sm="6">
+                            <Col key={index} lg="2" md="4" sm="6" data-aos="fade-up">
                                 <div className="inner-div-class"> {/* Add your inner div here */}
                                     <div className="tech-image-wrapper text-center">
                                         <img src={item.img} alt={`tech-stack-${index}`} className="tech-image" />

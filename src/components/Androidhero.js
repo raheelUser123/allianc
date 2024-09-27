@@ -6,13 +6,13 @@ export const Androidhero = () => {
   return (
     <div className='service-hero-section text-left'>
       <Container>
-        <h1>
+        <h1 data-aos="fade-right">
         Dynamic Android App <br/> Development for Your Business
         </h1>
-        <p>
+        <p data-aos="fade-left">
         Alliance is ready to help you reach millions of users with innovative, high-performance Android applications that stand out in the marketplace.
         </p>
-        <Button  className="me-3 btn1">Let’s Build <FaLongArrowAltRight /></Button>
+        <Button  className="me-3 btn1" data-aos="fade-up">Let’s Build <FaLongArrowAltRight /></Button>
       </Container>
     </div>
   )

@@ -71,7 +71,7 @@ a:hover {
 } */
 
 .hero-section h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -953,6 +953,9 @@ section.awards-section .section-heading {
 }
 
 /* services starts here */
+.ios-app-development .row {
+  align-items: center;
+}
 .services-page{
 background-image: url('./images/services-body.webp');
 background-size: cover; 

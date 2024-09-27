@@ -18,17 +18,17 @@ const EmpowerSection = () => {
           </Col>
           <Col md={6}>
             <h2 className="section-heading">
-              Empowering Your Brand Through Revolutionary Mobile App Development
+            Developing Your Vision <br/> into an App
             </h2>
             <p className="section-description">
-              We are a passionate team of digital marketing enthusiasts dedicated to helping businesses succeed in the digital world. With years of experience and a deep understanding of the ever-evolving online landscape, we stay at the forefront of industry trends.
+            Alliance Mobile Apps specializes in bringing your vision to life through high-performance, intuitive mobile applications. Our team carefully assesses the needs of every business, whether it’s a startup ready to launch its first app or a well-recognized and established business going through a digital transformation.
             </p>
             <div className="buttons">
               <Button className="me-3 btn1">
-                Get Started <FaLongArrowAltRight />
+              Let’s Talk <FaLongArrowAltRight />
               </Button>
               <Button variant="success">
-                Let's Talk <FaLongArrowAltRight />
+              Learn More <FaLongArrowAltRight />
               </Button>
             </div>
           </Col>

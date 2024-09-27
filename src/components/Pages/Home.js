@@ -7,7 +7,7 @@ import WhyChooseUs from '../WhyChooseUs';
 import CaseStudySection from '../CaseStudySection';
 import AwardsSection from '../AwardsSection';
 import TestimonialsSection from '../TestimonialsSection';
-import ContactSection from '../ContactSection';
+import ContactSection from '../ContactSectionnew';
 import Footer from '../Footer';
 
 function Home() {

@@ -17,23 +17,24 @@ const WhyChooseUs = () => {
           </Col>
           <Col md={6}>
             <h2 className="section-heading">
-              Why Choose Alliance For Mobile App Development
+            Why Choose Alliance for App Development?
             </h2>
             <ul className="feature-list">
               <li>
-                <h4>Idea Over Investment</h4>
-                <p>We prioritize innovative ideas over monetary investment to ensure the best outcomes for your product.</p>
-              </li>
-              <li>
-                <h4>Tech-Driven Solutions</h4>
-                <p>We employ the latest technologies to bring scalable and sustainable mobile app solutions tailored to your needs.</p>
+                <h4>Expert Team</h4>
+                <p>Invest in our team and see how they go the extra mile so that you can make the most of your end product.</p>
               </li>
               <li>
                 <h4>Seamless Deployment</h4>
-                <p>Our streamlined deployment processes ensure minimal downtime and flawless user experiences across all devices.</p>
+                <p>From ideation to launch and beyond, we support you through every stage of the app development process along with ongoing post-deployment support.
+                </p>
+              </li>
+              <li>
+                <h4>Client-Centric Approach</h4>
+                <p>Your goals are our priority. We ensure that your app not only meets your business needs but exceeds your expectations.</p>
               </li>
             </ul>
-            <Button className="btn1 button">Learn More <FaLongArrowAltRight /></Button>
+            <Button className="btn1 button">Let’s Talk <FaLongArrowAltRight /></Button>
           </Col>
         </Row>
       </Container>

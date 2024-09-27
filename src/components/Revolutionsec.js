@@ -9,11 +9,10 @@ export const Revolutionsec = () => {
         <Row>
         <Col lg='6'>
           <h2 className='section-heading'>
-            Revolutionize Your Business <br /> With Our iOS App Development<br /> Services
+          Developing Custom iOS Apps for Businesses
           </h2>
           <p>
-            Do you have a vision but no direction?  <br />
-            Our team of expert developers can help you create the perfect iOS solution. Our industry-best iOS mobile app development services have been helping businesses for many years.
+          Alliance Mobile Apps offers a team of experts and cutting-edge technology to develop iOS for your business. From concept to deployment, our expert team delivers user-centric iOS applications with intuitive design, seamless functionality, and cutting-edge technology. Planning on launching a new product or transforming an existing service, our iOS solutions are built to drive growth and engagement. 
 
           </p>
         </Col>
@@ -23,7 +22,7 @@ export const Revolutionsec = () => {
          </div>
         </Col>
         </Row>
-      </Container>
+      </Container>  
     </div>
   )
 }

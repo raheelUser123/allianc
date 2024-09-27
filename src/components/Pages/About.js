@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../Footer'
-import ContactSection from '../ContactSection'
+import ContactSection from '../ContactSectionnew'
 import TestimonialsSection from '../TestimonialsSection'
 import Header from '../Header'
 import Aboutherosection from '../Aboutherosection'

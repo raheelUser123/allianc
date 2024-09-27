@@ -38,9 +38,9 @@ export const Ourvalues = () => {
                             <div className='respect-image-wrapper'>
                                 <img src={respectimg1}></img>
                             </div>
-                            <h2 className='section-heading'>Respect</h2>
+                            <h2 className='section-heading'>Innovation</h2>
                             <p>
-                                The way we view our client relationships is one of WebAlive’s defining characteristics. We partner up with our clients to overcome the problems together.
+                            We constantly push the envelope, exploring new technologies and approaches to deliver groundbreaking solutions.
                             </p>
                         </div>
                     </Col>
@@ -51,7 +51,7 @@ export const Ourvalues = () => {
                             </div>
                             <h2 className='section-heading'>Integrity</h2>
                             <p>
-                            Developing close, honest relationships with our clients means we are genuinely driven to see them find success. This is what brings out our best work.
+                            Transparency and honesty guide everything we do. We are committed to ethical business practices and delivering on our promises.
                             </p>
                         </div>
                     </Col>
@@ -60,9 +60,9 @@ export const Ourvalues = () => {
                             <div className='respect-image-wrapper'>
                                 <img src={respectimg3}></img>
                             </div>
-                            <h2 className='section-heading'>Innovation</h2>
+                            <h2 className='section-heading'>Customer-Centricity</h2>
                             <p>
-                            We offer solutions to our clients’ problems by applying the latest technologies available. This allows us to solve business problems more effectively.
+                            Our clients' success is our priority. We craft solutions that not only meet but exceed expectations, ensuring that each app drives results.
                             </p>
                         </div>
                     </Col>

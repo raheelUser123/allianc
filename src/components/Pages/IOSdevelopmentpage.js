@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Header'
 import Faqsection from '../Fcase'
 import TestimonialsSection from '../TestimonialsSection'
-import ContactSection from '../ContactSection'
+import ContactSectionnew from '../ContactSectionnew'
 import Footer from '../Footer'
 import { Expertisesection } from '../Expertisesection'
 import CaseStudySection from '../CaseStudySection'
@@ -13,7 +13,7 @@ import { IOSdevelopment } from '../IOSdevelopment'
 import Techstack from '../Techstack'
 import { Whatmakes } from '../Whatmakes'
 
-const Services = () => {
+const IOSdevelopmentpage = () => {
     return (
         <div className='services-page'>
             <Header />
@@ -27,10 +27,11 @@ const Services = () => {
             <Whatmakes />
             <Faqsection />
             <TestimonialsSection />
-            <ContactSection />
+            <ContactSectionnew />
             <Footer />
+            
         </div>
     )
 }
 
-export default Services
+export default IOSdevelopmentpage

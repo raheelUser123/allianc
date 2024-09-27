@@ -358,7 +358,7 @@ p.history-description {
   font-family: Poppins;
   font-size: 78px;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 94px;
   color: #32E0AE;
 }
 .contact-section .form-label {
@@ -458,6 +458,7 @@ section.contact-section .col-md-5 div label {
 }
 .respect-section.row {
   padding: 50px 0px;
+  align-items: center;
 }
 .respect-box p {
   background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);
@@ -467,7 +468,7 @@ section.contact-section .col-md-5 div label {
 /* our values ends here */
 /* case study starts here  */
 .case-study-page{
-  background-image: url('./images/body.png');
+  background-image: url('./images/case-study-body.webp');
   background-size: cover; 
 }
 .expert-image {
@@ -944,6 +945,7 @@ section.awards-section .section-heading {
 .service-box p {
   font-size: 1rem;
   color: #bfbfbf;
+  min-height: 110px;
 }
 
 .icon-wrapper {
@@ -952,7 +954,7 @@ section.awards-section .section-heading {
 
 /* services starts here */
 .services-page{
-background-image: url('./images/about-body.png');
+background-image: url('./images/services-body.webp');
 background-size: cover; 
 }
 .revolution-sec {
@@ -1054,6 +1056,7 @@ background-size: cover;
 }
 .numbers-box p {
   color: white;
+  font-size: 16px;
 }
 .tech-image-wrapper {
   display: flex;
@@ -1107,6 +1110,86 @@ background-size: cover;
 }
 
 /* services ends here */
+/* contact page starts here */
+.contact-page{
+  background-image: url('./images/contactbg.webp');
+  background-size: cover;
+}
+.contact-form-section {
+  padding: 180px 0px 100px 0px;
+}
+.info-box h3 {
+  color: rgba(0, 55, 86, 1);  
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.info-email p {
+  color: rgba(255, 255, 255, 1) !important  ;
+
+}
+.info-email {
+  padding: 20px 0px 0px 0px;
+}
+.contact-form-section h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+.contact-form-section .col-lg-6 form .form-div {
+  display: flex;
+  padding: 5px 0px;
+  gap: 10px;
+  align-items: end;
+} 
+.contact-form-section .col-lg-6 form .form-div input {
+  background: transparent;
+  border: unset;
+}
+.contact-form-section .col-lg-6 form .form-div input {
+  background: transparent;
+  border: unset;
+  border-bottom: 1px solid rgba(103, 99, 99, 1);
+  border-radius: unset;
+  color: white;
+}
+.contact-form-section .col-lg-6 form .form-div label {
+  padding: 0;
+  margin: 0;
+}
+.contact-form-section form {
+  padding: 20px 30px;
+}
+.contact-form-section .col-lg-6 form textarea {
+  background: transparent;
+  border: unset;
+  border-bottom: 1px solid rgba(103, 99, 99, 1);
+  border-radius: 0;
+  color: white;
+}
+.contact-form-section .col-lg-6 form .form-div-2 {
+  margin-top: 30px;
+}
+.contact-form-section .col-lg-6 form .form-div input:focus {
+  box-shadow: unset;
+}
+.contact-form-section .col-lg-6 form .form-div-2 textarea:focus {
+  box-shadow: unset;
+}
+.info-box p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(28, 28, 28, 1);
+}
+.info-box {
+  background: rgba(50, 224, 174, 1);
+  color: white !important;
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+/* contact page ends here */
 /* Responsive Styling */
 @media (max-width: 768px) {
   .section-heading {
@@ -1279,6 +1362,12 @@ padding: 310px;
   font-size: 3rem;
   font-weight: 600;
   color: white;
+}
+h3.history-heading {
+  font-size: 30px;
+  color: #32E0AE;
+  margin: 8px 0;
+  font-weight: bold;
 }
 .history-section p {
   background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.3) 44.5%, #FFFFFF 100%);

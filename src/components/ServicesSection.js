@@ -14,32 +14,32 @@ import iotIcon from '../images/iot-icon.png';
 const services = [
   {
     title: 'iOS App Development',
-    description: 'We offer robust iOS app development services that allow users a smooth experience on their Apple devices.',
+    description: 'Building seamless and robust iOS applications that deliver high performance and a premium user experience.',
     icon: iosIcon,
   },
   {
     title: 'Android App Development',
-    description: 'Our mobile app developers are well-versed in deploying exceptional Android apps enriched with appealing UI/UX design.',
+    description: 'Engage your users and enhance your brands reach with an Android application. Bring performance, scalability, and compatibility across different Android devices.',
     icon: androidIcon,
   },
   {
-    title: 'Game App Development',
-    description: 'The mobile game we develop keeps the users engaged for hours and offers them a highly immersive experience.',
+    title: 'Flutter App Development',
+    description: 'Cross-platform apps developed with Flutter offer seamless experiences on both iOS and Android from a single codebase.',
     icon: gameIcon,
   },
   {
-    title: 'Web App Development',
-    description: 'To offer a more cost-effective option, we create highly-functional web apps that are fully optimized to run on any platform.',
+    title: 'React Native App Development',
+    description: 'Accelerate your time to market with React Native, offering powerful, native-like app experiences on multiple platforms.',
     icon: webIcon,
   },
   {
-    title: 'Wearable App Development',
-    description: 'Our wearable app development solutions are empowered by cutting-edge technology, offering users extreme portability.',
+    title: 'Game App Development',
+    description: 'Create immersive game apps with stunning graphics and engaging gameplay for mobile platforms.',
     icon: wearableIcon,
   },
   {
-    title: 'IoT App Development',
-    description: 'Our developed IoT apps enable our customers to gain more insight into their products using analytics and data processing.',
+    title: 'Web App Development',
+    description: 'Deliver exceptional web-based applications that function smoothly on any device, ensuring a cohesive experience for users.',
     icon: iotIcon,
   },
 ];
@@ -48,7 +48,7 @@ const ServicesSection = () => {
   return (
     <section className="services-section">
      
-        <h2 className="section-heading">Mobile App Development<br /> Services We Offer</h2>
+        <h2 className="section-heading">A Full Spectrum of Our <br/> App Development Services</h2>
         <Row>
           {services.map((service, index) => (
             <Col key={index} md={4} className="mb-4">

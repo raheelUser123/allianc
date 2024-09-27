@@ -5,48 +5,54 @@ import iosappimage from '../images/ios app-image.png'
 export const IOSdevelopment = () => {
   return (
     <div className='ios-app-development'>
-        <Container>
-            <Row>
-              <Col lg='6'>
-               <div className='ios-app-image-wrapper'>
-                <img src={iosappimage}></img>
-               </div>
-               </Col>
-              <Col lg='6'>
-               <h2 className='section-heading'>
-               Why Choose Us For iOS <br/> Mobile Apps Development
-               </h2>
-               <p>
-               When you choose our iPhone app development services, you can rest assured of our commitment to customer satisfaction, dedicated teams, and utmost process transparency.
+      <Container>
+        <Row>
+          <Col lg='6'>
+            <div className='ios-app-image-wrapper'>
+              <img src={iosappimage}></img>
+            </div>
+          </Col>
+          <Col lg='6'>
+            <h2 className='section-heading'>
+              Why Choose Us for <br /> iOS App Development
+            </h2>
+            <p>
+              When you choose an app development service for iOS, you don’t just experience the result, there’s a whole collaborative journey of consistent support, satisfaction, and dedication that you will get to see in the process.
 
-               </p>
-               <h4>
-               Customer Satisfaction
-               </h4>
-               <p>
-               We prioritize our customers' satisfaction above all else. We follow agile procedures to ensure that our development process is seamless, and we communicate with our clients every step of the way.
-               </p>
-               <h4>
-               Dedicated Teams
-               </h4>
-               <p>
-               When you choose us for your iPhone app development project, you'll work with a dedicated team of developers who are committed to creating the perfect app for your needs.
-               </p>
-               <h4>
-               Transparent and Flexible <br/> Engagement Models
-               </h4>
-               <p>
-               At our company, we believe in transparency and flexibility. We offer several engagement models to fit our client's needs, including fixed prices, time, and materials.
-               </p>
-               <h4>
-               Competitive Pricing
-               </h4>
-               <p>
-               We believe high-quality iPhone app mobile development service shouldn't break the bank. That's why we offer competitive pricing for all of our services.
-               </p>
-               </Col>
-            </Row>
-        </Container>
+            </p>
+            <h4>
+              Expert Team
+            </h4>
+            <p>
+              Our developers are highly experienced in creating top-tier iOS applications that align with your business goals.
+            </p>
+            <h4>
+              Custom Solutions
+            </h4>
+            <p>
+              We design apps tailored to your unique needs, ensuring a personalized experience for your users.
+            </p>
+            <h4>
+              User-Centric Design
+            </h4>
+            <p>
+              Our UX/UI experts focus on delivering an intuitive and engaging user experience that keeps users coming back.
+            </p>
+            <h4>
+              Cutting-Edge Technology
+            </h4>
+            <p>
+              We utilize the latest iOS development tools and techniques to ensure your app is optimized for performance and scalability.
+            </p>
+            <h4>
+              End-to-End Support
+            </h4>
+            <p>
+              From concept to launch and beyond, we offer full support, ensuring your app continues to perform at its best.
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </div>
-)
+  )
 }

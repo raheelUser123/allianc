@@ -1,6 +1,6 @@
 // src/components/Header.js
 import React from 'react';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button, NavDropdown } from 'react-bootstrap';
 import Logo from '../images/main-logo.png'
 const Header = () => {
   return (
@@ -12,9 +12,18 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/services">Services</Nav.Link>
+            <NavDropdown title="Services" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/iosdevelopmentpage">
+              iOS App Development
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/androiddevelopmentpage">Android App Development</NavDropdown.Item>
+              <NavDropdown.Item href="/flutterdevelopmentpage">
+              Flutter App Development
+              </NavDropdown.Item>
+            </NavDropdown>
+
             <Nav.Link href="/casestudy">Case Study</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Button variant="outline-success" className="ms-2" data-aos="fade-up">Get a Quote</Button>
         </Navbar.Collapse>

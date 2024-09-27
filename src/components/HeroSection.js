@@ -13,12 +13,12 @@ const HeroSection = () => {
           <Col md={7}>
             <div className="centerhero">
               <h1 data-aos="fade-up">
-                Mobile App 
+              Trusted App 
               </h1>
-              <h1 data-aos="fade-up" className="development">Development</h1>
-              <p data-aos="fade-up">Your Trusted Partner in Mobile App Development</p>
+              <h1 data-aos="fade-up" className="development">Development Partner for American Businesses</h1>
+              <p data-aos="fade-up">Developing innovative apps with a seamless experience. Become more accessible and drive more traffic with app development for your business. </p>
               <Button  className="btn1" data-aos="fade-up">
-                Case Study
+              Let’s Build
               </Button>
             </div>
           </Col>

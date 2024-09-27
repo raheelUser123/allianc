@@ -17,7 +17,7 @@ const Vision = () => {
                         <div className='vision-box'>
                             <h2 className='section-heading'>Vision</h2>
                             <p>
-                                Our vision is to be the most sought after digital agency in Australia, facilitating sustainable growth and prosperity for our local and international clients. We are continuously evolving to become an industry leader in the vibrant field of web technologies.
+                              <b>To redefine the future of business by empowering them with creative and innovative tech solutions </b>Our vision is to be the go-to app development agency for businesses across the US and offer them transformative mobile solutions that drive growth, efficiency, and engagement.
                             </p>
                         </div>
                     </Col>
@@ -25,7 +25,7 @@ const Vision = () => {
                         <div className='vision-box'>
                             <h2 className='section-heading'>Mission</h2>
                             <p>
-                                Our mission is to transform our clients’ businesses, allowing them to utilise powerful technologies and improve their processes. We want to be consistently bringing out world-class products and services, that benefit businesses of all sizes, making them more efficient and effective.
+                             <b>In this ever-changing digital arena, our mission is to keep up with the needs of the tech environment, all while enabling the businesses of our clients more scalable, innovative, and creative with mobile apps.</b> Our mission is to consistently provide quality tech solutions by creating custom, scalable, and reliable mobile apps that align with our clients’ goals. Unlike expert tech players in the industry, we ensure that the bond, we form, with our clients stays strong with post-deployment support.
                             </p>
                         </div>
                     </Col>

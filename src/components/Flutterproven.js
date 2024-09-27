@@ -1,19 +1,19 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-const Numbers = () => {
+const Flutterproven = () => {
   return (
     <div className='numbers-section'>
         <Container>
-            <h2 className='section-heading text-center mb-5'>Our Proven Process for iOS App Development</h2>
+            <h2 className='section-heading text-center mb-5'>Our Proven Process for Flutter App Development</h2>
         <Row>
                 <Col>
                 <div className='numbers-box text-center'>
                     <div className='straight-line-2'></div>
                     <h2>01</h2>
                     <p>
-                    <b>Ideation & Discovery</b> <br/>
-                    Understanding your vision
+                    <b>Consultation & Planning</b> <br/>
+                    Defining your cross-platform vision
                     </p>
                 </div>
                  </Col>
@@ -23,7 +23,7 @@ const Numbers = () => {
                     <h2>02</h2>
                     <p>
                         <b> UX/UI Design</b> <br/>
-                        Crafting delightful experiences
+                        Creating visually stunning and responsive designs
                     </p>
                 </div>
                 </Col>
@@ -32,8 +32,8 @@ const Numbers = () => {
                     <div className='straight-line-2'></div>
                     <h2>03</h2>
                     <p>
-                    <b> Development & Coding</b> <br/>
-                    Building with precision
+                    <b> Development</b> <br/>
+                    Building with one codebase for multiple platforms
                     </p>
                 </div>
                 </Col>
@@ -42,8 +42,8 @@ const Numbers = () => {
                     <div className='straight-line-2'></div>
                     <h2>04</h2>
                     <p>
-                       <b>Testing & Quality Assurance</b> <br/>
-                       Ensuring a flawless experience
+                       <b>Testing & Debugging</b> <br/>
+                       Ensuring optimal performance on all devices
                     </p>
                 </div>
                 </Col>
@@ -52,8 +52,8 @@ const Numbers = () => {
                     <div className='straight-line-2'></div>
                     <h2>05</h2>
                     <p>
-                        <b>Deployment & Support</b> <br/>
-                        Launching your app to the world
+                        <b>Ensuring optimal performance on all devices</b> <br/>
+                        Deploying your app with ongoing care
                     </p>
                 </div>
                 </Col>
@@ -64,4 +64,8 @@ const Numbers = () => {
   )
 }
 
-export default Numbers
+export default Flutterproven
+
+
+
+

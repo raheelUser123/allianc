@@ -1510,7 +1510,35 @@ section.services-section {
     text-align: center;
 }
 }
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:480px) {
+  section.stats-section .row :nth-child(1) {
+    border-left: unset;
+}
+section.stats-section .row :nth-child(3) {
+  border: unset;
+}
+section.stats-section .row :nth-child(4) {
+  border-bottom: unset;
+}
+  footer ul.list-unstyled {
+    text-align: center;
+}
+footer.py-5 h5 {
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-custom {
+  margin: 0 auto;
+  display: table;
+}
+section.stats-section .col-md-3 {
+  border-left: 1px solid #ffc93e;
+  border-bottom: 1px solid #ffc93e;
+}
   h1,h2,h3,h4,p{
     text-align: center !important;
   }

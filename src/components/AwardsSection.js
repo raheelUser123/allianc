@@ -29,7 +29,7 @@ const AwardsSection = () => {
           </Col>
           
           {/* Second Award */}
-          <Col md={3} className="mb-4" data-aos="fade-up">
+          <Col md={3} className="mb-4" data-aos="fade-up">  
             <div className="award-box">
               <img src={award2} alt="Award 2" className="award-image" />
               <h4>Top Mobile App development company</h4>

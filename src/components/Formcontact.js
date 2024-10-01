@@ -58,7 +58,7 @@ const ContactSection = () => {
               <h3>Let's Talk Business</h3>
               <p>Fill up the form and our team will <br /> get back to you within 24 hours.</p>
               <div className='info-email'>
-              <p>Email: info@allaiancemobileapp.com</p>
+              <p>Email: info@alliancemobileapp.com</p>
               <p>Phone: (737) 331-1933</p>
               <p>Address: 1611 Monarch Beach Dr Katy, TX 77494</p>
               </div>

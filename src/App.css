@@ -1710,9 +1710,16 @@ a.navbar-brand img {
 }
 .years {
   margin-top: 10px;
+  display: flex;
 }
 .years p {
   padding: 5px;
+}
+.about-history-section .col-lg-1 {
+  order: 1;
+}
+.arrows {
+  align-items: center;
 }
 .respect-image-wrapper {
   display: flex;
@@ -1796,7 +1803,4 @@ a.navbar-brand img {
       font-size: 1.5rem;
   }
 
-  .vision-box p {
-      font-size: 0.875rem;
-  }
 }

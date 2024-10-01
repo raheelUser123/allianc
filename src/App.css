@@ -1396,7 +1396,7 @@ footer.py-5 p.mb-0 {
 }
 /* about sec START */
 .about-page{
-  background-image: url('./images/about-body.png');
+  background-image: url('./images/services-body.webp');
   background-size: cover;  
 }
 .about-hero-section {
@@ -1531,10 +1531,7 @@ footer.py-5 h5 {
   justify-content: center;
   align-items: center;
 }
-.my-custom {
-  margin: 0 auto;
-  display: table;
-}
+
 section.stats-section .col-md-3 {
   border-left: 1px solid #ffc93e;
   border-bottom: 1px solid #ffc93e;
@@ -1799,4 +1796,9 @@ a.navbar-brand img {
   .vision-box p {
       font-size: 0.875rem;
   }
+}
+
+.my-custom {
+  margin: 0 auto;
+  display: table;
 }

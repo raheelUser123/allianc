@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useLocation,BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Pages/Home';
 import './App.css';
 import About from './components/Pages/About';
@@ -10,10 +10,21 @@ import Androiddevelopmentpage from './components/Pages/Androiddevelopmentpage';
 import Flutterdevelopmentpage from './components/Pages/Flutterdevelopmentpage';
 import Reactnativepage from './components/Pages/Reactnativepage';
 import Gameappdevelopment from './components/Pages/Gameappdevelopment';
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  React.useEffect(() => {
+    // Scroll to the top whenever pathname changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+        <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} /> {/* Home route */}
         <Route path="/about" element={<About />} /> {/* Home route */}

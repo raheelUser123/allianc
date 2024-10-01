@@ -36,14 +36,11 @@ const Footer = () => {
           <div className='my-custom'>
             <h5>Services</h5>
             <ul className="list-unstyled">
-              <li><Link to="/ios-development">iOS Development</Link></li>
-              <li><Link to="/android-development">Android App Development</Link></li>
-              <li><Link to="/game-development">Game App Development</Link></li>
-              <li><Link to="/web-app-development">Web App Development</Link></li>
-              <li><Link to="/mobile-app-development">Mobile App Development</Link></li>
-              <li><Link to="/unity-development">Unity Game Development</Link></li>
-              <li><Link to="/unreal-development">Unreal Game Development</Link></li>
-              <li><Link to="/react-native-development">React Native Development</Link></li>
+              <li><Link to="/iosdevelopmentpage">iOS Development</Link></li>
+              <li><Link to="/androiddevelopmentpage">Android App Development</Link></li>
+              <li><Link to="/flutterdevelopmentpage">Flutter App Development</Link></li>
+              <li><Link to="/reactnativepage">React Native App Development</Link></li>
+              <li><Link to="/gameappdevelopment">Game App Development</Link></li>
             </ul>
             </div>
           </Col>

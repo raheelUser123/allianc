@@ -8,9 +8,9 @@ const ContactSection = () => {
     <div className="contact-form-section">
       <Container>
         <Row>
-        <h1 className="text-white text-center ">Contact Us</h1>
+        <h1 className="text-white text-center "  data-aos="fade-up">Contact Us</h1>
           {/* Contact Form Column */}
-          <Col lg="6">
+          <Col lg="6"  data-aos="fade-right">
             <Form>
               <Row>
                 <Col md="6">
@@ -53,14 +53,14 @@ const ContactSection = () => {
           </Col>
 
           {/* Info Section Column */}
-          <Col lg="6">
+          <Col lg="6"  data-aos="fade-left">
             <div className="info-box ">
               <h3>Let's Talk Business</h3>
               <p>Fill up the form and our team will <br /> get back to you within 24 hours.</p>
               <div className='info-email'>
-              <p>Email: info@postulus.com</p>
-              <p>Phone: 555-607-8801</p>
-              <p>Address: 1234 Main St, Moonstone City, Stardust State 12345</p>
+              <p>Email: info@allaiancemobileapp.com</p>
+              <p>Phone: (737) 331-1933</p>
+              <p>Address: 1611 Monarch Beach Dr Katy, TX 77494</p>
               </div>
             </div>
           </Col>

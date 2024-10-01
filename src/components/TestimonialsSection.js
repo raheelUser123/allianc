@@ -1,6 +1,6 @@
 // src/components/TestimonialsSection.js
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import testimage1 from '../images/test--image-1.png';
 import testimage2 from '../images/test--image-2.png';
 import quoteimage1 from '../images/testimonial-quote.png';
@@ -31,7 +31,8 @@ const TestimonialsSection = () => {
     <section className="testimonials-section text-white">
       <Container>
         <h2 className='section-heading'>Happy Stories from Happy Clients</h2>
-        <Slider {...settings}>
+      <Row>
+      <Slider {...settings}>
           <div className="testimonial-box" data-aos="fade-up">
             <div className='quote-image'>
               <img src={quoteimage1} alt='quote'></img>
@@ -91,6 +92,7 @@ const TestimonialsSection = () => {
           </div>
           {/* Add more slides similarly here */}
         </Slider>
+      </Row>
       </Container>
     </section>
   );

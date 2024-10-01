@@ -8,7 +8,7 @@ const ContactSectionnew = () => {
   return (
     <section className="contact-section text-white">
       <Container>
-        <Row className='form-row1'>
+        <Row className='form-row1'  data-aos="fade-up">
           <Col md={7}>
             <div className='contact-content'>
               <div className='contact-heading'>
@@ -25,18 +25,18 @@ const ContactSectionnew = () => {
               <img src={reachimage}></img>
             </div></Col>
         </Row>
-        <Form className="custom-form">
+        <Form className="custom-form" data-aos="fade-up">
           <Row>
             <Col md={6}>
               <Form.Group controlId="formName">
-                <Form.Label>Hey, My Name Is</Form.Label>
-                <Form.Control style={{ width: '79%' }} type="text" />
+                <Form.Label className='name'>Hey, My Name Is</Form.Label>
+                <Form.Control style={{ width: '79%' }} type="text"  />
               </Form.Group>
             </Col>
             <Col md={6}>
               <Form.Group controlId="formLookingFor">
-                <Form.Label >And I'm Looking For</Form.Label>
-                <Form.Control style={{ width: '75%' }} type="text" />
+                <Form.Label  className='iam'>And I'm Looking For</Form.Label>
+                <Form.Control style={{ width: '75%' }} type="text"   />
               </Form.Group>
             </Col>
           </Row>
@@ -44,13 +44,13 @@ const ContactSectionnew = () => {
           <Row className="mt-3">
             <Col md={6}>
               <Form.Group controlId="formContact">
-                <Form.Label>Get In Touch With Me At</Form.Label>
+                <Form.Label  className='get-in-touch'>Get In Touch With Me At</Form.Label>
                 <Form.Control type="email" />
               </Form.Group>
             </Col>
             <Col md={6}>
               <Form.Group controlId="formStartDate">
-                <Form.Label style={{ width: '5%' }}>or</Form.Label>
+                <Form.Label  className='or-form' style={{ width: '5%' }}>or</Form.Label>
                 <Form.Control style={{ width: '100%' }} type="text" />
               </Form.Group>
             </Col>
@@ -58,8 +58,8 @@ const ContactSectionnew = () => {
           <Row className='mt-3'>
             <Col md={6}>
               <Form.Group controlId="formStartDate">
-                <Form.Label>Start Date</Form.Label>
-                <Form.Control style={{ width: '87%' }} type="date" />
+                <Form.Label className='start-date'>Start Date</Form.Label>
+                <Form.Control style={{ width: '87%' }} type="date"/>
               </Form.Group>
             </Col>
             <Col className="d-flex justify-content-start">
@@ -69,7 +69,7 @@ const ContactSectionnew = () => {
             </Col>
           </Row>
         </Form>
-        <div className='form-text mt-3'>
+        <div className='form-text mt-3' data-aos="fade-right" data-aos-duration="2000">
           <p className='text-white'>
             By clicking "Submit," you acknowledge and agree to the Terms of Use and Privacy Policy ALLIANCE MOBILE APP You also provide your consent to receive phone calls and SMS messages from ALLIANCE MOBILE APP for information pertaining to our services and order updates. Message frequency will vary based on your activity. Standard messaging rates may apply. To stop receiving messages, text "STOP" at any time. For help, text "HELP." Please review our Privacy Policy for more information.
           </p>

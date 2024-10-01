@@ -10,9 +10,11 @@ const Gamehero = () => {
       Engaging & Immersive Game <br/> App Development Company
       </h1>
       <p data-aos="fade-left">
-      From 2D to Web3, we develop gaming experience that keep the players coming for more. Build your gaming world with the team of experts. 
+      From 2D to Web3, we develop gaming experience that keep the players coming for more. <br/> Build your gaming world with the team of experts. 
       </p>
-      <Button  className="me-3 btn1" data-aos="fade-up">Let’s Build <FaLongArrowAltRight /></Button>
+      <div className='center-button'>
+     <Button  className="me-3 btn1" data-aos="fade-up">Let’s Build <FaLongArrowAltRight /></Button>
+     </div>
     </Container>
   </div>
   )

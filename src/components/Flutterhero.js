@@ -6,14 +6,16 @@ import { FaLongArrowAltRight } from 'react-icons/fa'
 const Flutterhero = () => {
   return (
          <div className='service-hero-section text-left'>
-    <Container>
-      <h1 data-aos="fade-right">
+    <Container data-aos="fade-right">
+      <h1>
       Get Cross-Platform App <br /> Development with Flutter
       </h1>
-      <p data-aos="fade-left">
+      <p >
       Reducing development time and cost with Flutter for seamless and high-performance apps. 
       </p>
-      <Button  className="me-3 btn1" data-aos="fade-up">Let’s Build <FaLongArrowAltRight /></Button>
+     <div className='center-button'>
+     <Button  className="me-3 btn1">Let’s Build <FaLongArrowAltRight /></Button>
+     </div>
     </Container>
   </div>
   )

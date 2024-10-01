@@ -8,7 +8,7 @@ export const Ourvalues = () => {
     return (
         <div className='our-values-section'>
             <Container>
-                <div className='our-values-section'>
+                <div className='our-values-heading'>
                     <h2 className='section-heading' data-aos="fade-left">Our Values</h2>
                 </div>
                 <Row>

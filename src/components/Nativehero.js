@@ -5,14 +5,16 @@ import { FaLongArrowAltRight } from 'react-icons/fa'
 const Nativehero = () => {
   return (
     <div className='service-hero-section text-left'>
-    <Container>
-      <h1 data-aos="fade-right">
+    <Container data-aos="fade-right">
+      <h1>
       Making Apps Super-optimized, Cost-effective, & Time-efficient with React Native 
       </h1>
-      <p data-aos="fade-left">
+      <p>
       Reach more users with a single, high-performance app across both iOS and Android using React Native.
       </p>
-      <Button  className="me-3 btn1" data-aos="fade-up">Let’s Build <FaLongArrowAltRight /></Button>
+      <div className='center-button'>
+     <Button  className="me-3 btn1" >Let’s Build <FaLongArrowAltRight /></Button>
+     </div>
     </Container>
   </div>
   )
